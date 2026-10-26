@@ -2,19 +2,19 @@ import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 
 const PREVIEW_ITEMS = [
-  { label: 'recreation of', artist: 'jaykatana', track: 'MAD MAX', user: 'prodkid_sa', score: '4.8' },
-  { label: 'recreation of', artist: 'K1llbrady', track: 'RichDepressedKids', user: 'subfreq', score: '4.2' },
-  { label: 'recreation of', artist: 'BABYLOWSK1', track: 'BLEEDN\'', user: 'loopsmith', score: '3.9' },
-  { label: 'recreation of', artist: 'jaykatana', track: 'Demon Catcher', user: 'wavdumper', score: '4.5' },
-  { label: 'recreation of', artist: 'K1llbrady', track: 'Heaven Made', user: 'prodkid_sa', score: '4.1' },
+  { label: 'recreation of', artist: 'Vialice', track: 'Im Dancing', user: 'prodkid_sa', score: '4.8' },
+  { label: 'recreation of', artist: 'DEADPAN', track: 'Competition Talk', user: 'subfreq', score: '4.2' },
+  { label: 'recreation of', artist: 'Ho99o9', track: 'Incline', user: 'loopsmith', score: '3.9' },
+  { label: 'recreation of', artist: 'Edward Skeletrix', track: 'Slave Niggas Still Shop At Niemans', user: 'wavdumper', score: '4.5' },
+  { label: 'recreation of', artist: 'Pink Siifu', track: 'FKDUPBEZEL', user: 'prodkid_sa', score: '4.1' },
 ];
 
 const TOP_REQUESTS = [
-  { artist: 'Phantom Steeze', votes: 47 },
-  { artist: 'Priddy Ugly', votes: 31 },
-  { artist: 'A-Reece', votes: 28 },
-  { artist: 'Wordz', votes: 19 },
-  { artist: 'Flvme', votes: 14 },
+  { artist: 'Vialice', votes: 47 },
+  { artist: 'DEADPAN', votes: 31 },
+  { artist: 'Edward Skeletrix', votes: 28 },
+  { artist: 'Pink Siifu', votes: 19 },
+  { artist: 'Gao the Arsonist', votes: 14 },
 ];
 
 export default function AuthForm() {
@@ -66,7 +66,7 @@ export default function AuthForm() {
             color: 'var(--white)',
             marginBottom: '4px',
           }}>
-            BEATLOG
+            Stem Scavangers
           </div>
           <div style={{ color: 'var(--text-muted)', fontSize: '13px', fontFamily: 'var(--font-mono)' }}>
             recreate the underground
@@ -163,7 +163,7 @@ export default function AuthForm() {
             marginBottom: '28px',
             color: 'var(--white)',
           }}>
-            {mode === 'login' ? 'welcome back' : 'join beatlog'}
+            {mode === 'login' ? 'welcome back' : 'join Stem Scavangers'}
           </div>
 
           {/* Tab switcher */}
