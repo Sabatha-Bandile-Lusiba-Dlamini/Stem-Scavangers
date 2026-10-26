@@ -1,7 +1,7 @@
 import React from 'react';
 import { useAuth } from '../context/AuthContext';
 
-type Page = 'feed' | 'top' | 'profile';
+type Page = 'feed' | 'top' | 'profile' | 'search';
 
 interface Props {
   current: Page;
@@ -45,12 +45,13 @@ export default function Nav({ current, onNav }: Props) {
           {([
             { key: 'feed', label: 'feed' },
             { key: 'top', label: 'top' },
+            { key: 'search', label: 'search' },
           ] as { key: Page; label: string }[]).map(({ key, label }) => (
             <button
               key={key}
               onClick={() => onNav(key)}
               style={{
-             
+                background: current === key ? 'var(--surface)' : 'transparent',
                 border: 'none',
                 padding: '6px 12px',
                 fontSize: '13px',
@@ -58,8 +59,7 @@ export default function Nav({ current, onNav }: Props) {
                 color: current === key ? 'var(--white)' : 'var(--text-muted)',
                 cursor: 'pointer',
                 borderRadius: '4px',
-                background: current === key ? 'var(--surface)' : 'transparent',
-              } as React.CSSProperties}
+              }}
             >
               {label}
             </button>
