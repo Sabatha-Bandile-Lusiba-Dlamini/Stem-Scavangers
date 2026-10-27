@@ -6,6 +6,7 @@ import authRoutes from './routes/auth';
 import recreationRoutes from './routes/recreations';
 import stemRoutes from './routes/stems';
 import ratingRoutes from './routes/ratings';
+import requestRoutes from './routes/requests'
 
 dotenv.config();
 
@@ -19,6 +20,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/recreations', recreationRoutes);
 app.use('/api/stems', stemRoutes);
 app.use('/api/ratings', ratingRoutes);
+app.use('/api/requests', requestRoutes);
 
 app.listen(PORT, () => {
   console.log(`BeatLog server running on port ${PORT}`);
