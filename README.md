@@ -167,7 +167,7 @@ JWT_SECRET=your_jwt_secret
 SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 
-PORT=5001
+PORT=port number
 ```
 
 ---
