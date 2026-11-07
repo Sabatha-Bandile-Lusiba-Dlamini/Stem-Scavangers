@@ -124,8 +124,8 @@ Where `C` is a confidence constant (minimum votes needed to be trusted) and `m` 
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/beatlog-v2.git
-cd beatlog-v2
+git clone https://github.com/your-username/Stem-Scavangers.git
+cd Stem Scavangers
 
 # 2. Install dependencies
 cd server && npm install
@@ -138,8 +138,8 @@ cp server/.env.example server/.env
 psql -d your_db -f server/src/db/schema.sql
 
 # 5. Start both servers
-cd server && npm run dev   # :5001
-cd client && npm run dev   # :5173
+cd server && npm run dev   
+cd client && npm run dev   
 ```
 
 ### Supabase Storage Setup
@@ -156,7 +156,7 @@ cd client && npm run dev   # :5173
 # Database
 PGHOST=localhost
 PGPORT=5432
-PGDATABASE=beatlog
+PGDATABASE=stem scavangers
 PGUSER=your_user
 PGPASSWORD=your_password
 
