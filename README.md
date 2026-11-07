@@ -2,7 +2,7 @@
 
 Stem Scavangers is built around a single question: *how accurately can a producer recreate an underground beat?* Users upload audio recreations of existing underground tracks, attach individual stems with production notes explaining their process, and receive fidelity ratings from the community on a 1–5 scale. A Bayesian weighted ranking system surfaces the most accurately recreated beats over time.
 
-The platform also includes a community request system — if nobody has recreated a track yet, users can submit and vote for the artists they want covered most.
+The platform also includes a community request system. If nobody has recreated a track yet, users can submit and vote for the artists they want covered most.
 
 ---
 
