@@ -23,5 +23,5 @@ app.use('/api/ratings', ratingRoutes);
 app.use('/api/requests', requestRoutes);
 
 app.listen(PORT, () => {
-  console.log(`BeatLog server running on port ${PORT}`);
+  console.log(`Stem Scavangers server running on port ${PORT}`);
 });
