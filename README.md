@@ -118,7 +118,7 @@ Where `C` is a confidence constant (minimum votes needed to be trusted) and `m` 
 
 - Node.js 18+
 - PostgreSQL
-- A [Supabase](https://supabase.com) project with a public storage bucket named `beatlog-audio`
+- A [Supabase](https://supabase.com) project with a public storage bucket named `Stem Scavanger Audio`
 
 ### Installation
 
@@ -145,7 +145,7 @@ cd client && npm run dev
 ### Supabase Storage Setup
 
 1. Create a project at supabase.com
-2. Create a public bucket named `beatlog-audio`
+2. Create a public bucket named `Stem Scavanger Audio`
 3. The app writes to `beats/` and `stems/` folders inside that bucket automatically
 
 ---
